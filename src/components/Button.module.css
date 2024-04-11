@@ -1,0 +1,13 @@
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.send {
+  background-color: rgb(142, 142, 227);
+}

@@ -1,0 +1,42 @@
+.container {
+  width: 300px;
+  background-color: rgb(240, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 60px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.row {
+  margin: 10px;
+}
+.link {
+  width: 200px;
+  cursor: pointer;
+  display: flex;
+  margin: 10px 40px;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgb(78, 104, 181);
+}
+.link a:hover {
+  color: brown;
+}
+/* .link a:link,
+.link a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(78, 104, 181);
+} */
