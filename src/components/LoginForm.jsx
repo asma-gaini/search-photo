@@ -44,7 +44,7 @@ function LoginForm() {
           />
         </div>
         <div className={styles.link}>
-          <Link to="/auth/create">Creat new account</Link>
+          <Link to="/login/create">Creat new account</Link>
           <a>Forget password?</a>
         </div>
         <Button type="send">Send</Button>

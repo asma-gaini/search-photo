@@ -12,8 +12,7 @@ function Login() {
   return (
     <div>
       <PageNav />
-      <h2>login</h2>
-      {/* <Outlet /> */}
+      <Outlet />
     </div>
   );
 }

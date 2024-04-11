@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CreateAcount from "./components/createForm";
+import CreateAcount from "./components/CreateAcount";
 import LoginForm from "./components/LoginForm";
 import Category from "./pages/Category";
 import HomePage from "./pages/HomePage";
@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="login" element={<Login />}>
-            {/* <Route path="login" element={<LoginForm />} /> */}
-            {/* <Route path="create" element={<CreateAcount />} /> */}
+            <Route index="form" element={<LoginForm />} />
+            <Route path="create" element={<CreateAcount />} />
           </Route>
           <Route path="category" element={<Category />} />
         </Routes>
